@@ -1,7 +1,7 @@
 # Markdown-CkEditor-spring-boot
 
 CKEditor is a WYSIWYG rich text editor which enables writing content directly inside of web pages or online applications.<br />
-
+  
 Important Links : 
 - [HTML-OUTPUT CKEditor Repository](https://github.com/suraj-repositories/Html-CkEditor-spring-boot)
 - [Ck Editor 5 download/cdn/npm](https://ckeditor.com/ckeditor-5/download/#zip)
@@ -63,31 +63,31 @@ Important Links :
                 ClassicEditor
                     .create(editor, {
                         plugins: [
-							Essentials,
-							Markdown,
-							Bold,
-							Italic,
-							Link,
-							Paragraph,
-							Heading,
-							BlockQuote,
-							CodeBlock,
-							List,
-							Table,
-							TableToolbar,
-							HorizontalLine,
-							Undo
+				Essentials,
+				Markdown,
+				Bold,
+				Italic,
+				Link,
+				Paragraph,
+				Heading,
+				BlockQuote,
+				CodeBlock,
+				List,
+				Table,
+				TableToolbar,
+				HorizontalLine,
+				Undo
                         ],
                         toolbar: {
                             items: [
-								'undo', 'redo', '|',
-								'heading', '|',
-								'bold', 'italic', '|',
-								'link', '|',
-								'bulletedList', 'numberedList', '|',
-								'blockQuote', 'codeBlock', '|',
-								'insertTable', '|',
-								'horizontalLine'
+				'undo', 'redo', '|',
+				'heading', '|',
+				'bold', 'italic', '|',
+				'link', '|',
+				'bulletedList', 'numberedList', '|',
+				'blockQuote', 'codeBlock', '|',
+				'insertTable', '|',
+				'horizontalLine'
                             ]
 
                         }
